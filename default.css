@@ -1,0 +1,59 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Feb 15, 2017, 12:31:55 AM
+    Author     : yves0_000
+*/
+
+#calculate {
+    -fx-text-fill: #004D40;
+    -fx-background-color: transparent;
+    -fx-border-color: #004D40;
+    -fx-border-radius: 3px;
+}
+
+#result {
+    -fx-text-color: #004D40;
+    -fx-background-color: white;
+    -fx-border-radius: 3px;
+    -fx-padding: 5px;
+    -fx-border-style: solid;
+    -fx-border-width: 1px;
+    -fx-width: 10%;
+    -fx-border-color: #004D40;
+}
+
+#calculate:hover {
+    -fx-text-fill: #fff;
+    -fx-background-color: #00796B;
+    -fx-border-color: #00796B;
+    -fx-border-radius: 3px;
+}
+
+#fromLabel, #toLabel, #amountLabel {
+    -fx-text-fill: #00796B;
+    -fx-font-family: sans-serif;
+    -fx-font-size: 2em;
+}
+
+#from, #to {
+    -fx-background-color: white;
+    -fx-border-width: 1px;
+    -fx-border-color: #004D40;
+    -fx-border-radius: 3px;
+}
+
+#rate, #result {
+    -fx-text-fill: #00796B;
+    -fx-font-weight: 600;
+    -fx-font-size: 2em;
+    -fx-line-height: 3em;
+}
+
+.combo-box-base > .arrow-button > .arrow {
+    -fx-background-color: #004D40;
+    -fx-color: white;
+}
